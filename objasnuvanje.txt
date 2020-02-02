@@ -1,0 +1,11 @@
+Za pocetok da objasnam deka za input na pipelinot  staviv Multipart Reader koj go simnav od blog
+bidejki samo so nego mozev da napravam POST od Postman. Potoa kreirame task
+za komunikacija so Postman, i so komandata POST od Postman isprakjame
+naracka vo vid na JSON.Po nego imame snap JSON parser i formater za primeniot fajl
+i file writter.
+Potoa kreirame sub pipeline kade imame vcituvanje na dvata fajlovi menu i dobienata naracka, koj gi sortirame
+i so snapot Diff gi sporeduvame. Dobienata finalna smetka ja dopolnuvaame so final bill kolonata koja 
+ja dobivame so snapot aggregate so funkcijata SUM i go zapisuvame vo fajl bill.json
+Potoa so tret sub pipeline i snapot REST POST zaedno so kreiranje na nov task za komuniciranje so Postman i
+kreiranje na mini lokalen server, ja isprakjame
+konecnata smetka bill.json 
